@@ -17,11 +17,10 @@ Each stage produces the same set of visualisations (metric cards, colour-coded t
 ```bash
 # Clone and install
 git clone <repo-url>
-cd rtgs_digital_twin
-pip install -r rtgs_digital_twin/requirements.txt
+pip install -r requirements.txt
 
 # Run
-streamlit run rtgs_digital_twin/app.py
+streamlit run app.py
 ```
 
 Requires Python 3.8+.
